@@ -9,4 +9,5 @@ dna = "GCTCGATCGATCTAGCTAGCATGATAATCGATGATCTAGCCGGGCCCTTAGCGGATCTAGCATCGATCGACTC
 3. How many unique, non-overlaping, complete "octets"? (octet = group of 8 bases)
 4. How many unique, overlapping, complete "octets"?
 5. What is the reverse complement? (G <=> C; A <=> T)
+7. Generate some dna. Write code to run the above on it.
 6. How many unique octets exist for the DNA bases?
