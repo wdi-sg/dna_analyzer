@@ -21,7 +21,7 @@ class Analyzer
 	end
 
 	def uniqueOctetCount
-		puts "no. of unique octets: #{@dna.scan(/......../).uniq!.length}"
+		puts "no. of unique octets: #{@dna.scan(/.{8}/).uniq!.length}"
 	end
 
 	def uniqueOverlapCount
