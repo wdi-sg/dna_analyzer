@@ -38,3 +38,6 @@ def generate_dna(num_bases)
   end
   return dna
 end
+
+#7
+4^8
