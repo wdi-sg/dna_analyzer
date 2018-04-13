@@ -54,5 +54,5 @@ print dna
 
 # 16.times.map { ['A', 'T', 'C', 'G'].sample }.join
 
-#7 4**16
+#7 4**8
 
