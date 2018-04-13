@@ -16,12 +16,11 @@ end
 
 def 🤨
   tmp = []
-  (0..$😀.size-7).each do |i|
+  (0..$😀.size-8).each do |i|
     tmp << $😀[i..i+7]
   end
   tmp.uniq.size
 end
-
 
 def 🙄
   $😀.gsub(/./, 'G' => 'C', 'C' => 'G', 'A' => 'T', 'T' => 'A')
