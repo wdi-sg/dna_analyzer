@@ -68,7 +68,7 @@ puts reverse_complement_array.join("")
 # Qn 6
 random_dna_array = []
 bases = ["G", "C", "T", "A"]
-max_length = 500000
+max_length = 1000000
 i = 0
 while i <= max_length do
       random_dna_array << bases[rand(4)]
